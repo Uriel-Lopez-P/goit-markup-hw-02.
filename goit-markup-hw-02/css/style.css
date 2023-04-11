@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;1,300&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    color: var(--color-btn-on);
+    background: var(--color-background-button);
+}
+
+:root {
+    --color-background-footer: #2F303A;
+    --color-background-header: #2F303A;
+    --color-background-button: #2196F3;
+    --color-text-on: #2196F3;
+    --color-general-text: #212121;
+    --color-text-description: #757575;
+    --color-text-title: #FFFFFF;
+    --color-btn-on: #FFFFFF;
+    --color-background-body: #E5E5E5;
+    --color-background-team: #F5F4FA;
+    --color-background-nav: #FFFFFF;
+}
+
+.logo {
+    font-family: 'Raleway';
+    color: var(--color-text-on);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.nav-buttons {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--color-general-text);
+}
+
+.contacts-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.link-buttons:active {
+    color: var(--color-text-on);
+}
+
+.nav-section {
+    background: var(--color-background-nav);
+}
+
+.header {
+    background: var(--color-background-header);
+}
+
+.header h1 {
+    color: var(--color-text-title);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.principal-btn {
+    color: var(--color-text-title);
+    background-color: var(--color-background-button);
+}
+
+.main_servicves {
+    background: var(--color-background-body);
+}
+
+.main_servicves img {
+    width: 373px;
+    height: 323px;
+}
+
+.main_servicves h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.main_servicves p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--color-text-description);
+}
+
+.section-services {
+    background: var(--color-background-body);
+}
+
+.section-services h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: var(--color-general-text);
+}
+
+.service_team {
+    background: var(--color-background-team);
+}
+
+.service_team h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: var(--color-general-text);
+}
+
+.services_team-card h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--color-general-text);
+}
+
+.services_team-card {
+    background: var(--color-btn-on);
+}
+
+.services_team-card p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--color-text-description);
+}
+
+.contacts-footer {
+    background: var(--color-background-header);
+}
+
+.contacts-footer li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--color-background-nav);
+}
+
+
+
+.buttons-portafolio button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: var(--color-general-text);
+}
+
+.buttons-portafolio button:hover {
+    background-color: #2196F3;
+    color: var(--color-background-nav);
+}
+
+.gallery-section h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--color-general-text);
+}
+
+.gallery-section p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--color-text-description);
+}
