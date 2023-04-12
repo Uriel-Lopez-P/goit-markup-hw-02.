@@ -35,7 +35,7 @@ button:hover {
 }
 
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     color: var(--color-text-on);
     font-style: normal;
     font-weight: 700;
@@ -62,7 +62,7 @@ button:hover {
 }
 
 
-.link-buttons:active {
+.link-buttons:hover {
     color: var(--color-text-on);
 }
 
